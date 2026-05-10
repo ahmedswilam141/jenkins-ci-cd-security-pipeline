@@ -4,8 +4,14 @@ namespace App;
 
 class SubscriptionManager
 {
-    public function calculateRemainingDays($totalDays, $daysUsed)
+    public function getDaysRemaining($totalDays, $daysUsed)
     {
-        return $totalDays - $daysUsed;
+        $remainingDays = $totalDays - $daysUsed;
+
+        if ($remainingDays < 0) {
+            return 0;
+        }
+
+        return $remainingDays;
     }
 }
