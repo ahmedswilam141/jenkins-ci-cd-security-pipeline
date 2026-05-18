@@ -3,6 +3,8 @@ namespace App;
 
 class OrderProcessor {
     public function process($name, $service) {
+       $password = "admin123";
+
         if (empty($name) || strlen($name) < 3) {
             return ["status" => "error", "message" => "Invalid Name"];
         }
