@@ -21,8 +21,8 @@ The project demonstrates a practical DevOps workflow with security and quality c
 
 ## Repository Information
 
-- Repository: `service-app`
-- GitHub repository visibility: Private
+- Repository: `jenkins-ci-cd-security-pipeline`
+- GitHub repository visibility: Public
 - Application type: PHP CLI/Web service
 - Docker image: `ahmedswilam12/service-app`
 - Deployment port: `8081`
