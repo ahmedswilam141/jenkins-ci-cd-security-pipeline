@@ -1,4 +1,4 @@
-# Jenkins CI/CD Security Pipeline Lab
+# Jenkins CI/CD Security Pipeline Project
 
 ## Project Overview
 
